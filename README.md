@@ -2,15 +2,15 @@
 
 This is a LoongArch64-optimized version of OGRE (Object-Oriented Graphics Rendering Engine) with LSX SIMD extensions support for Loongson processors.
 
-## 🎯 Overview
+##  Overview
 
-This fork provides optimized builds of OGRE specifically for Loongson 3B6000M series processors, utilizing the LSX (Loongson SIMD Extension) instruction set for improved performance.
+This fork provides optimized builds of OGRE specifically for Loongson 3B6000M processors, utilizing the LSX (Loongson SIMD Extension) instruction set for improved performance.
 
 ### Supported Processors
-- **Loongson 3B6000M series** (supports LSX)
-- **Note**: LASX is not supported on 3B6000 series and has been disabled
+- **Loongson 3B6000M** (supports LSX)
+- **Note**: LASX is not supported on 3B6000M and has been disabled
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -61,7 +61,7 @@ cd /path/to/ogre-loongarch64-lsx/build/bin
 ./SampleBrowser
 ```
 
-## ⚙️ Optimizations
+##  Optimizations
 
 ### LSX SIMD Extensions
 - **Enabled**: `-mlsx` compiler flag
@@ -85,7 +85,7 @@ The LSX optimizations provide significant performance improvements for:
 - Texture processing
 - Geometry calculations
 
-## 🖼️ Screenshots
+##  Screenshots
 
 ### SampleBrowser Running on Loongson 3B6000M
 
@@ -116,7 +116,7 @@ The build automatically detects and applies the following optimizations:
 -mlsx               # LSX SIMD extensions (if supported)
 ```
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -147,7 +147,7 @@ cat /proc/cpuinfo | grep lasx
 cat /proc/cpuinfo | grep features
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -155,12 +155,12 @@ cat /proc/cpuinfo | grep features
 4. Test on LoongArch hardware
 5. Submit a pull request
 
-## 📄 License
+##  License
 
 This project inherits the license from the original OGRE project.
 See [LICENSE](LICENSE) for details.
 
-## 📞 Contact
+##  Contact
 
 For issues specific to this LoongArch64 LSX-optimized fork, please open an issue on GitHub.
 
