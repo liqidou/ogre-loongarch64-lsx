@@ -4,11 +4,11 @@ This is a LoongArch64-optimized version of OGRE (Object-Oriented Graphics Render
 
 ##  Overview
 
-This fork provides optimized builds of OGRE specifically for Loongson 3B6000M processors, utilizing the LSX (Loongson SIMD Extension) instruction set for improved performance.
+This fork provides optimized builds of OGRE specifically for Loongarch processors, utilizing the LSX (Loongson SIMD Extension) instruction set for improved performance.
 
 ### Supported Processors
-- **Loongson 3B6000M** (supports LSX)
-- **Note**: LASX is not supported on 3B6000M and has been disabled
+- **Loongarch processors which support LSX** 
+- **Note**: LASX is not supported on 3B6000M
 
 ##  Quick Start
 
@@ -27,7 +27,7 @@ sudo apt-get install build-essential cmake libfreetype6-dev libx11-dev \
 
 ```bash
 # Clone the repository
-git clone https://github.com/liqidou/ogre-loongarch64-lsx.git
+git clone https://github.com/ycsqwan/ogre-loongarch64-lsx.git
 cd ogre-loongarch64-lsx
 
 # Create build directory
