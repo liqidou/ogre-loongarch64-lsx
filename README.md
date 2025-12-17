@@ -4,10 +4,10 @@ This is a LoongArch64-optimized version of OGRE (Object-Oriented Graphics Render
 
 ## 🎯 Overview
 
-This fork provides optimized builds of OGRE specifically for Loongson 3B6000 series processors, utilizing the LSX (Loongson SIMD Extension) instruction set for improved performance.
+This fork provides optimized builds of OGRE specifically for Loongson 3B6000M series processors, utilizing the LSX (Loongson SIMD Extension) instruction set for improved performance.
 
 ### Supported Processors
-- **Loongson 3B6000 series** (supports LSX)
+- **Loongson 3B6000M series** (supports LSX)
 - **Note**: LASX is not supported on 3B6000 series and has been disabled
 
 ## 🚀 Quick Start
@@ -89,15 +89,9 @@ The LSX optimizations provide significant performance improvements for:
 
 ### SampleBrowser Running on Loongson 3B6000M
 
-![SampleBrowser Screenshot](screenshots/samplebrowser_loongson.png)
+![SampleBrowser Screenshot](screenshots/ogre-sample-browser-loongarch.png)
 
 *SampleBrowser successfully running with LSX optimizations on Loongson 3B6000M*
-
-### Deferred Shading Demo
-
-![Deferred Shading](screenshots/deferred_shading.png)
-
-*Deferred shading demo showcasing rendering capabilities*
 
 ## 🛠️ Build Configuration
 
