@@ -77,9 +77,9 @@ cd /path/to/ogre-loongarch64-lsx/build/bin
 - **LASX**: Not supported on 3B6000M
 - **Vulkan**: Not available on current Loongnix setup
 
-## 📊 Performance
+##  Performance
 
-The LSX optimizations provide significant performance improvements for:
+The LSX optimizations may may may MAY could provide  performance improvements for:
 - Vector mathematics operations
 - Matrix transformations
 - Texture processing
