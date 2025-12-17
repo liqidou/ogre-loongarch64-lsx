@@ -66,7 +66,7 @@ cd /path/to/ogre-loongarch64-lsx/build/bin
 ### LSX SIMD Extensions
 - **Enabled**: `-mlsx` compiler flag
 - **Benefit**: Improved vector operations performance
-- **Compatibility**: Loongson 3B6000 series and newer
+- **Compatibility**: Loongson 3B6000M and newer
 
 ### Architecture Optimizations
 - **Base Architecture**: `-march=loongarch64`
@@ -74,7 +74,7 @@ cd /path/to/ogre-loongarch64-lsx/build/bin
 - **Compatibility**: All LoongArch 64-bit processors
 
 ### Disabled Features
-- **LASX**: Not supported on 3B6000 series
+- **LASX**: Not supported on 3B6000M
 - **Vulkan**: Not available on current Loongnix setup
 
 ## 📊 Performance
@@ -93,7 +93,7 @@ The LSX optimizations provide significant performance improvements for:
 
 *SampleBrowser successfully running with LSX optimizations on Loongson 3B6000M*
 
-## 🛠️ Build Configuration
+##  Build Configuration
 
 ### CMake Options
 
@@ -140,7 +140,7 @@ To verify your processor supports the required features:
 # Check for LSX support
 cat /proc/cpuinfo | grep lsx
 
-# Check for LASX support (not needed for 3B6000)
+# Check for LASX support (not needed for 3B6000M)
 cat /proc/cpuinfo | grep lasx
 
 # Full feature list
